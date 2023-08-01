@@ -1,0 +1,61 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "paths": {
+      "#imports": [
+        "/Users/david/Documents/projects/nuxt-dev-tools/nuxt-dev-tools/.nuxt/types/nitro-imports"
+      ],
+      "#paths": [
+        "/Users/david/Documents/projects/nuxt-dev-tools/nuxt-dev-tools/node_modules/nuxt/dist/core/runtime/nitro/paths"
+      ],
+      "~": [
+        "/Users/david/Documents/projects/nuxt-dev-tools/nuxt-dev-tools"
+      ],
+      "~/*": [
+        "/Users/david/Documents/projects/nuxt-dev-tools/nuxt-dev-tools/*"
+      ],
+      "@": [
+        "/Users/david/Documents/projects/nuxt-dev-tools/nuxt-dev-tools"
+      ],
+      "@/*": [
+        "/Users/david/Documents/projects/nuxt-dev-tools/nuxt-dev-tools/*"
+      ],
+      "~~": [
+        "/Users/david/Documents/projects/nuxt-dev-tools/nuxt-dev-tools"
+      ],
+      "~~/*": [
+        "/Users/david/Documents/projects/nuxt-dev-tools/nuxt-dev-tools/*"
+      ],
+      "@@": [
+        "/Users/david/Documents/projects/nuxt-dev-tools/nuxt-dev-tools"
+      ],
+      "@@/*": [
+        "/Users/david/Documents/projects/nuxt-dev-tools/nuxt-dev-tools/*"
+      ],
+      "assets": [
+        "/Users/david/Documents/projects/nuxt-dev-tools/nuxt-dev-tools/assets"
+      ],
+      "public": [
+        "/Users/david/Documents/projects/nuxt-dev-tools/nuxt-dev-tools/public"
+      ],
+      "public/*": [
+        "/Users/david/Documents/projects/nuxt-dev-tools/nuxt-dev-tools/public/*"
+      ]
+    }
+  },
+  "include": [
+    "/Users/david/Documents/projects/nuxt-dev-tools/nuxt-dev-tools/.nuxt/types/nitro-nuxt.d.ts",
+    "./types/nitro.d.ts",
+    "../**/*",
+    "../server/**/*"
+  ]
+}
